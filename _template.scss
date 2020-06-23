@@ -1,0 +1,121 @@
+.center {
+  background-color: white;
+}
+
+.header {
+  border-bottom: 4px solid #EBEBEB;
+}
+
+.logo {
+
+  img {
+    width: 135px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+
+.slogan {
+  img {
+    width: 250px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+
+.mainInfo {
+  padding-top: 40px;
+
+  p {
+    font-size: 18px;
+    line-height: 1.2em;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+  .underline {
+    text-decoration: underline;
+    color: #0b43a5;
+  }
+
+
+  .image {
+    height: 460px;
+    width: 400px;
+  }
+
+  .button {
+    background-color: #CC0000;
+    color: white;
+    padding: 12px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 3px;
+    margin-left: 0;
+  }
+}
+
+
+.footer {
+  background-color: #CC0000;
+
+  p {
+    padding-top: 34px;
+    padding-right: 0;
+    margin-left: 0;
+    color: white;
+    font-size: 18px;
+  }
+}
+
+.footer {
+  .menu {
+
+    img {
+      width: 30px;
+      height: 30px;
+      padding: 25px 0 0 0;
+    }
+
+    a {
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+.legal {
+  .margin {
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+}
+
+
+body>table>tbody>tr>td>center>table>tbody>tr>td>table:nth-child(5)>tbody>tr>th.footer.small-12.large-12.columns>table>tbody>tr>th:nth-child(1)>table>tbody>tr>td>table>tbody {
+  padding: 0;
+  margin: 0;
+}
+
+th.large-offset-2.footer.small-12.large-5.columns.first {
+  padding-right: 0;
+}
+
+.legal {
+  background-color: #252525;
+  padding-top: 20px;
+
+  p {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+  }
+}
+
