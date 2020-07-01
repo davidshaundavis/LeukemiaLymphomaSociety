@@ -10,6 +10,7 @@
 
   img {
     width: 135px;
+    padding-bottom: 10px;
     padding-bottom: 0;
     margin-bottom: 0;
   }
@@ -41,72 +42,51 @@
     color: #0b43a5;
   }
 
-
   .image {
     height: 460px;
     width: 400px;
   }
 
-  .button {
-    background-color: #CC0000;
-    color: white;
-    padding: 12px 29px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    border-radius: 3px;
-    margin-left: 0;
+  .buttonRow {
+    .buttonP {
+      .button {
+        background-color: #CC0000;
+        color: white;
+        padding: 12px 29px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 3px;
+        margin-left: 0;
+      }
+    }
   }
 }
-
 
 .footer {
   background-color: #CC0000;
 
   p {
-    padding-top: 34px;
-    padding-right: 0;
-    margin-left: 0;
     color: white;
     font-size: 18px;
+    margin-top: 30px;
   }
 }
 
 .footer {
+
   .menu {
+    margin-left: 5px;
 
     img {
-      width: 30px;
-      height: 30px;
-      padding: 25px 0 0 0;
-    }
-
-    a {
-      padding: 0;
-      margin: 0;
+      padding-top: 5px;
+      width: 28px;
     }
   }
 }
 
-.legal {
-  .margin {
-    padding: 0;
-    margin: 0;
-    color: white;
-  }
-}
-
-
-body>table>tbody>tr>td>center>table>tbody>tr>td>table:nth-child(5)>tbody>tr>th.footer.small-12.large-12.columns>table>tbody>tr>th:nth-child(1)>table>tbody>tr>td>table>tbody {
-  padding: 0;
-  margin: 0;
-}
-
-th.large-offset-2.footer.small-12.large-5.columns.first {
-  padding-right: 0;
-}
 
 .legal {
   background-color: #252525;
@@ -119,3 +99,37 @@ th.large-offset-2.footer.small-12.large-5.columns.first {
   }
 }
 
+// MEDIA QUERY
+
+/* Small only */
+@media only screen and (max-width: #{$global-breakpoint}) {
+
+  .logo {
+
+    img {
+      width: 80px !important;
+      padding-top: 12px !important;
+    }
+  }
+
+  .footer {
+
+    .menu {
+      margin-bottom: 15px !important;
+
+      img {
+        padding-top: 25px !important;
+        padding-left: 1px !important;
+        padding-right: 1px !important;
+        width: 23px !important;
+      }
+    }
+  }
+
+  .legal {
+    p {
+      padding-left: 5px !important;
+      padding-right: 5px !important;
+    }
+  }
+}

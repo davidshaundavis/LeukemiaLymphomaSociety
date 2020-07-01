@@ -6,18 +6,20 @@ subject: My Email Templates
 <container>
   <!-- HEADER -->
   <row class="header">
-    <columns class="logo">
-      <img class="float-left" src="https://i.postimg.cc/YSLVrP1p/logo.jpg" alt="">
+    <columns class="logo" small="3" large="4">
+      <img class="float-left" src="https://i.postimg.cc/YSLVrP1p/logo.jpg" alt="Logo">
     </columns>
-    <columns class="slogan">
-      <img class="float-right" src="https://i.postimg.cc/Bn6kybbP/slogan.jpg" alt="">
+    <columns small="4" large="3"></columns>
+    <columns class="slogan" small="5" large="5">
+      <img class="float-right" src="https://i.postimg.cc/Bn6kybbP/slogan.jpg"
+        alt="Slogan, Beating Cancer is in our Blood">
     </columns>
   </row>
 
   <!-- Main Info -->
 
   <row class="collapse">
-    <columns class="mainInfo">
+    <columns class="mainInfo" small="12" large="12">
       <p>Dear Supporter,</p>
       <spacer size="10"></spacer>
       <p>Scott Peterson is a husband, father and cancer survivor.</p>
@@ -39,14 +41,15 @@ subject: My Email Templates
     <columns large="1"></columns>
     <columns large="10">
       <center>
-        <img class="image" src="../assets/img/lls-image.jpg" alt="">
+        <img class="image" small="12" large="12" src="https://i.postimg.cc/BnV9V2NJ/lls-image.jpg"
+          alt="Scott's family photo">
       </center>
     </columns>
     <columns large="1"></columns>
   </row>
 
   <row class="collapse">
-    <columns class="mainInfo">
+    <columns class="mainInfo" small="12" large="12">
       <p class="italic"><strong>“There’s nothing more important to me than my family and helping find ways to end
           cancer. Cancer brings
           along more mental uncertainty and stress on a daily basis than most people realize so it is important to take
@@ -55,11 +58,16 @@ subject: My Email Templates
       <spacer size="10"></spacer>
       <p class="underline"><a
           href="https://www.lls.org/blog/managing-family-and-work-obligations-while-social-distancing-at-home?utm_source=Silverpop&utm_medium=Email&utm_campaign=fathers-day&utm_content=fathers-day-engaged-lls&spMailingID=42777013&spUserID=MTA3NjE2ODU4NTEyOAS2&spJobID=1781784700&spReportId=MTc4MTc4NDcwMAS2">Read
-          Scott's story</a></p>
+          Scott's story</a>
+      </p>
       <spacer size="10"></spacer>
       <p>Please consider donating so more husbands and fathers can celebrate their Father’s Days.</p>
       <spacer size="10"></spacer>
-      <a href="https://donate.lls.org/lls/donate" class="button">DONATE</a>
+      <row>
+        <columns class="buttonRow" small="12" large="12">
+          <wrapper class="buttonP"><a href="https://donate.lls.org/lls/donate" class="button">DONATE</a></wrapper>
+        </columns>
+      </row>
       <spacer size="20"></spacer>
       <p>Thank you,</p>
       <img class="signature" src="https://i.postimg.cc/mkyKxF7C/signature.png" alt="President Signature">
@@ -72,36 +80,38 @@ subject: My Email Templates
 
   <!-- Footer Social -->
   <row>
-    <columns class="large-offset-2 footer" small="12" large="5">
+    <columns class="footer show-for-large" large="3"></columns>
+    <columns class="footer" small="5" large="2">
       <p class="text-right">Follow Us:</p>
     </columns>
 
-    <columns small="12" class="footer">
-      <menu class="menu">
-        <item href="https://www.facebook.com"><img src="https://i.postimg.cc/t44GjDST/fb.jpg" alt=""></item>
-        <item href="https://www.twitter.com"><img src="https://i.postimg.cc/xjvwNBB8/twitter.jpg" alt=""></item>
-        <item href="https://www.youtube.com"><img src="https://i.postimg.cc/Fsh2yDQZ/youtube.jpg" alt=""></item>
-        <item href="https://www.instagram.com"><img src="https://i.postimg.cc/Mp32KRNY/instagram.jpg" alt=""></item>
-        <item href="https://www.pinterest.com"><img src="https://i.postimg.cc/ZqXG6mTB/pinterest.jpg" alt=""></item>
-        <item href="https://www.linkedin.com"><img src="https://i.postimg.cc/Zq9k9nhz/linkedin.jpg" alt=""></item>
-        <item href="https://www.rssfeed.com"><img src="https://i.postimg.cc/G2YZQf2M/rss.jpg" alt=""></item>
+    <columns class="footer" small="7" large="6" valign="middle">
+      <menu>
+        <item href="https://www.facebook.com"><img src="https://i.postimg.cc/t44GjDST/fb.jpg" alt=""></a></item>
+        <item href="https://www.twitter.com"><img src="https://i.postimg.cc/xjvwNBB8/twitter.jpg" alt=""></a></item>
+        <item href="https://www.youtube.com"><img src="https://i.postimg.cc/Fsh2yDQZ/youtube.jpg" alt=""></a></item>
+        <item href="ttps://www.instagram.com"><img src="https://i.postimg.cc/Mp32KRNY/instagram.jpg" alt=""></a></item>
+        <item class="show-for-large" href="https://www.pinterest.com"><img src="https://i.postimg.cc/ZqXG6mTB/pinterest.jpg" alt=""></a></item>
+        <item class="show-for-large" href="https://www.linkedin.com"><img src="https://i.postimg.cc/Zq9k9nhz/ankedin.jpg" alt=""></a></item>
+        <item class="show-for-large" href="https://www.rssfeed.com"><img src="https://i.postimg.cc/G2YZQf2M/rss.jpg" alt=""></a></item>
       </menu>
     </columns>
-    <columns class="footer"></columns>
+
+    <columns class="footer show-for-large" large="1"></columns>
   </row>
 
   <!-- Footer BOTTOM / LEGAL -->
 
   <row>
-    <columns class="legal" large="1"></columns>
-    <columns class="legal" large="10">
+    <columns class="legal show-for-large" large="1"></columns>
+    <columns class="legal" small="12" large="10">
       <p>&copy;2020 The Leukemia & Lymphoma Society. 3 International Drive, Suite 200 | Rye Brook, NY 10573</p>
-      <p class="margin"><a href="#">Update Email Preferences</a> | <a href="#">Unsubscribe</a></p>
-      <p class="margin">Disclaimer | Public Disclosure</p>
+      <p><a href="#">Update Email Preferences</a> | <a href="#">Unsubscribe</a></p>
+      <p>Disclaimer | Public Disclosure</p>
       <p><a href="#">Donate</a> | <a href="https://www.lls.org/">Start a Fundraiser for LLS</a></p>
       <p>To ensure future delivery of emails, please add newsletter@email.lls.org to your safe sender list or address
         book. This email was sent to: <a href="mailto:joeschmoe@gmail.com">joeschmoe@gmail.com</a></p>
     </columns>
-    <columns class="legal" large="1"></columns>
+    <columns class="legal show-for-large" large="1"></columns>
   </row>
 </container>
